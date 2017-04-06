@@ -38,6 +38,11 @@ process_option() {
       bin/apply_default_settings
       bin/setup_software
       clean_work_path;;
+    'sanlil')
+      bin/install_homebrew
+      bin/install_app_store
+      bin/install_extensions
+      bin/apply_default_settings;;
     'R')
       bin/restore_backup;;
     'c')
