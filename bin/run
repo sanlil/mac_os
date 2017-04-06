@@ -40,6 +40,7 @@ while true; do
     printf "     d:  Apply default settings.\n"
     printf "     s:  Setup installed software.\n"
     printf "     i:  Install everything (i.e. executes all install options).\n"
+    printf "sanlil:  Customized install.\n"
     printf "  Restore:\n"
     printf "     R:  Restore settings from backup.\n"
     printf "  Manage:\n"
